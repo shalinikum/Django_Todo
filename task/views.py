@@ -28,4 +28,8 @@ def updateTask(request, pk):
             return redirect('/')
     context = {'form' : form}
 
+    return render(request, 'update_task.html' , context)
+
+    #def deleteTask(request , pk):
+        
        
